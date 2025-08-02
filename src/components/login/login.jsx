@@ -5,8 +5,8 @@ import './login.css'
 export function Login(){
     return(
         <>
-            <form>
-                <h1>User Login</h1>
+            <form className='rounded rounded-4'>
+                <h1 className='bi bi-person-circle'> User Login</h1>
                 <dl>
                     <dt>User Name</dt>
                     <dd><input type="text" /></dd>
