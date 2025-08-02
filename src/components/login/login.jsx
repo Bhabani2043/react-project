@@ -5,15 +5,15 @@ import './login.css'
 export function Login(){
     return(
         <>
-            <form className='rounded rounded-4'>
-                <h1 className='bi bi-person-circle'> User Login</h1>
-                <dl>
-                    <dt>User Name</dt>
-                    <dd><input type="text" /></dd>
-                    <dt>Password</dt>
-                    <dd><input type="password" /></dd>
+            <form className='rounded rounded-4 loginform'>
+                <h1 className='bi bi-person-circle loginh1'> User Login</h1>
+                <dl id='logindl'>
+                    <dt id='logindt'>User Name</dt>
+                    <dd id='logindd'><input type="text" /></dd>
+                    <dt id='logindt'>Password</dt>
+                    <dd id='logindd'><input type="password" /></dd>
                 </dl>
-                <button>Login</button>
+                <button id='loginbtn'>Login</button>
             </form>
         </>
     )

@@ -1,8 +1,6 @@
-*{
-     font-family: Arial;
-}
 
-form {
+
+.loginform {
   max-width: 400px;
   margin: 100px auto;
   padding: 2rem;
@@ -13,24 +11,20 @@ form {
 }
 
 
-form h1 {
+.loginh1 {
   text-align: center;
   margin-bottom: 1.5rem;
   color: #000000;
 }
 
-dl {
+#logindl {
   margin: 0;
 }
 
-dt {
+#logindt {
   margin-top: 1rem;
   font-weight: bold;
   color: #000000;
-}
-
-dd {
-  margin: 0;
 }
 
 input[type="text"],
@@ -44,7 +38,7 @@ input[type="password"] {
   font-size: 1rem;
 }
 
-button {
+#loginbtn {
   width: 100%;
   padding: 0.75rem;
   margin-top: 1.5rem;
